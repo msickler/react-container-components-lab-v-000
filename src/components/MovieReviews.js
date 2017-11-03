@@ -10,3 +10,7 @@ export default const MovieReviews = ({ reviews }) => (
   )}
   </div>
 )
+
+MovieReviews.defaultProps = {
+  reviews: ""
+}
