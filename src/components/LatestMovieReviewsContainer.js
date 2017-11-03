@@ -21,8 +21,8 @@ export default class LatestMovieReviewsContainer extends React.Component {
 
   render() {
     return (
-      <div class="latest-movie-reviews">
-      <MovieReviews reviews={this.state.reviews}
+      <div className="latest-movie-reviews">
+      <MovieReviews reviews={this.state.reviews} />
       </div>
     )
   }
