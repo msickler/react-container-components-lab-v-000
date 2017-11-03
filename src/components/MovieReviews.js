@@ -1,3 +1,5 @@
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const MovieReviews = ({ reviews }) => (
   <div className="review-list">
