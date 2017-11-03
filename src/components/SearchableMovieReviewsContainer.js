@@ -5,7 +5,7 @@ import MovieReviews from './MovieReviews'
 export default class SearchableMovieReviewsContainer extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { 
+    this.state = {
       reviews: [],
       searchTerm: ""
     }
@@ -14,6 +14,7 @@ export default class SearchableMovieReviewsContainer extends React.Component {
   render() {
     return (
       <div className="searchable-movie-reviews">
+      <MovieReviews reviews = {this.state.reviews} />
       </div>
     )
   }
