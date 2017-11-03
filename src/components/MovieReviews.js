@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const MovieReviews = ({ reviews }) => (
+export default const MovieReviews = ({ reviews }) => (
   <div className="review-list">
   {reviews.map(review =>
     <div className="review">
